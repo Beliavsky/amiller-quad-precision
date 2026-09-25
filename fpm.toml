@@ -1,4 +1,4 @@
-name = "amiller-quad"
+name = "amiller-quad-precision"
 version = "0.1.0"
 license = "Public Domain"
 author = "Alan Miller; FPM packaging and portable backend modernization by OpenAI"

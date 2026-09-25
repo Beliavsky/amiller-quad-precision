@@ -1,4 +1,4 @@
-# amiller-quad
+# amiller-quad-precision
 
 FPM packaging and portable modernization of Alan Miller's quadruple-precision
 Fortran interfaces.
@@ -49,8 +49,8 @@ conversion at approximately 30 decimal digits.
 
 `q_pzeros.f90` is not included in this package.  Although Miller supplied a
 quadruple-precision adaptation, the algorithm is Dario Bini's separately
-licensed polynomial-root package.  It is better packaged independently (for
-example as `bini-pzeros-f90`) with its full license notice rather than folded
+licensed polynomial-root package.  It is packaged independently as
+`amiller-polynomial-zeros`, with Bini's full license notice, rather than folded
 under the public-domain Miller package.
 
 Compiler-specific NAS FortranPlus and historical F-language variants are also
